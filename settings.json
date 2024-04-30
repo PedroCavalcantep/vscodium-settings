@@ -1,0 +1,44 @@
+{
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // personalização
+
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.5,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "jetBrainsMono Nerd Font",
+
+  "editor.fontWeight": "600",
+  "window.zoomLevel": 1,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": true,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.fontSize": 14,
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+  "terminal.integrated.fontWeight": "600",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.parameterHints.enabled": false,
+  "editor.parameterHints.cycle": false,
+  "editor.wordWrap": "on",
+  "window.customTitleBarVisibility": "auto",
+  "workbench.activityBar.location": "top"
+}
