@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.colorTheme": "Palenight Theme",
   "workbench.iconTheme": "catppuccin-mocha",
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.list.smoothScrolling": true,
@@ -12,12 +12,17 @@
 
   // personalização
 
-  "editor.fontSize": 16,
+  "git.enabled": true,
+
+  "editor.fontSize": 17,
+  "editor.fontWeight": "600",
   "editor.lineHeight": 1.5,
   "editor.fontLigatures": true,
   "editor.fontFamily": "jetBrainsMono Nerd Font",
 
-  "editor.fontWeight": "600",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
   "window.zoomLevel": 1,
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "short",
@@ -30,15 +35,13 @@
   "window.menuBarVisibility": "hidden",
   "workbench.layoutControl.enabled": false,
   "window.titleBarStyle": "custom",
-  "terminal.integrated.fontSize": 14,
-
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-
   "terminal.integrated.fontWeight": "600",
   "editor.quickSuggestionsDelay": 0,
   "editor.parameterHints.enabled": false,
   "editor.parameterHints.cycle": false,
   "editor.wordWrap": "on",
   "window.customTitleBarVisibility": "auto",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
