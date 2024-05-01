@@ -1,47 +1,87 @@
 {
-  "workbench.colorTheme": "Palenight Theme",
-  "workbench.iconTheme": "catppuccin-mocha",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.list.smoothScrolling": true,
-  "editor.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
-  "editor.cursorBlinking": "phase",
-  "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+	"files.autoSave": "afterDelay",
+	// Interface
+	// "window.title": "${activeEditorMedium}",
+	"window.title": "",
+	"window.titleBarStyle": "custom",
+	"window.menuBarVisibility": "toggle",
+	"window.commandCenter": false,
+	"window.zoomLevel": 1,
 
-  // personalização
+	"workbench.startupEditor": "none",
+	"workbench.sideBar.location": "left",
+	"workbench.layoutControl.enabled": false,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.labelFormat": "short",
+	"workbench.tree.indent": 10,
+	"editor.lineNumbers": "on",
+	"editor.minimap.enabled": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.cursorBlinking": "phase",
 
-  "git.enabled": true,
+	"editor.scrollbar.horizontalScrollbarSize": 4,
+	"editor.scrollbar.verticalScrollbarSize": 4,
+	"explorer.compactFolders": false,
+	"explorer.autoReveal": false,
+	"breadcrumbs.enabled": false,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"workbench.list.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+	"terminal.integrated.smoothScrolling": true,
+	"editor.renderLineHighlight": "gutter",
 
-  "editor.fontSize": 17,
-  "editor.fontWeight": "600",
-  "editor.lineHeight": 1.5,
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "jetBrainsMono Nerd Font",
+	// Font
+	"editor.fontFamily": "JetBrainsMono Nerd Font",
+	"editor.fontSize": 16,
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "bold",
+	"editor.lineHeight": 2,
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontWeight": "bold",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
 
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	// Prettier
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.printWidth": 100,
+	// Formatting
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 
-  "window.zoomLevel": 1,
-  "editor.renderLineHighlight": "gutter",
-  "workbench.editor.labelFormat": "short",
-  "explorer.compactFolders": false,
-  "editor.semanticHighlighting.enabled": true,
-  "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
-  "workbench.statusBar.visible": false,
-  "window.menuBarVisibility": "hidden",
-  "workbench.layoutControl.enabled": false,
-  "window.titleBarStyle": "custom",
-  "terminal.integrated.fontWeight": "600",
-  "editor.quickSuggestionsDelay": 0,
-  "editor.parameterHints.enabled": false,
-  "editor.parameterHints.cycle": false,
-  "editor.wordWrap": "on",
-  "window.customTitleBarVisibility": "auto",
-  "workbench.activityBar.location": "top",
-  "workbench.startupEditor": "none",
-  "javascript.updateImportsOnFileMove.enabled": "always"
+	// Linux multi-cursor
+	"editor.multiCursorModifier": "ctrlCmd",
+	// Telemetry
+	"telemetry.telemetryLevel": "off",
+	// Git
+	"diffEditor.renderSideBySide": false,
+	// Tailwind
+	"css.lint.unknownAtRules": "ignore",
+
+	// Search
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/*.code-search": true
+	},
+	"search.quickOpen.includeHistory": false,
+	// Linked editing
+	"editor.linkedEditing": true,
+	// Respect keyboard mappings
+	"keyboard.dispatch": "keyCode",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.activityBar.location": "hidden",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"explorer.expandSingleFolderWorkspaces": false,
+	"workbench.statusBar.visible": false,
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.iconTheme": "Dark Knight Icons",
+	"material-icon-theme.saturation": 1
 }
